@@ -5,7 +5,7 @@ import { HttpClient, HttpParams } from '@angular/common/http';
 	providedIn: 'root'
 })
 export class CommonService {
-	private baseurl = "http://localhost:3000/";
+	private baseurl = "chat-back-ct4tt31x6-thakkarpreet665gmailcoms-projects.vercel.app/";
 
 	constructor(private http : HttpClient) { }
 
